@@ -14,7 +14,8 @@ This suite of development tools is designed to assist with development efforts w
 
 1. Include your connection string at `DevTools/appsettings.json'
 > This probably shouldn't ever be a production environment
-1. Run `dotnet run --project=UserManager/UserManager.csproj`
+2. Navigate to UserManager `cd UserManager`
+3. Run `dotnet run`
 
 ## Support
 
