@@ -1,0 +1,8 @@
+# IDE specific
+.vs
+
+# Server ignore
+*/bin
+*/obj
+
+# Client ignore
