@@ -18,7 +18,7 @@ class Program
         
         return new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json", optional: true)
+            .AddJsonFile($"appsettings.{environment.ToLower()}.json", optional: false)
             .AddEnvironmentVariables()
             .Build();
     }
