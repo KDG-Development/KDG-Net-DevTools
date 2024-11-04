@@ -4,5 +4,6 @@
 # Server ignore
 */bin
 */obj
+*/appsettings.Development.json
 
 # Client ignore

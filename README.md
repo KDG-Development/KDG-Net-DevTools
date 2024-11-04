@@ -11,11 +11,11 @@ This suite of development tools is designed to assist with development efforts w
 ## User Manager
 
 #### Create a development user
-
-1. Include your connection string at `DevTools/appsettings.json'
-> This probably shouldn't ever be a production environment
-2. Navigate to UserManager `cd UserManager`
-3. Run `dotnet run`
+1. Add your appsettings.development.json at `DevTools/appsettings.development.json` with properties matching the `appsettings.json`
+2. Add the applicable values into `DevTools/appsettings.development.json'
+> Don't run in production environments
+3. Navigate to UserManager `cd UserManager`
+4. Run `dotnet run`
 
 ## Support
 
